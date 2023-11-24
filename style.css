@@ -1,0 +1,48 @@
+body{
+    transition: all .8s;
+}
+.style1
+{
+    background-color:#9d6381;
+    color:#612940;
+}
+.dark{
+    background-color:#cecccc;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+#tbody i{
+    font-size: 25px;
+    cursor: pointer;
+}
+/* .shadowBlack{
+    color:#c00000 ;
+    text-shadow: 200px 200px 100px 100px red;
+} */
+.iconBlack {
+    color: white;
+    text-shadow: 10px -10px 22px rgba(0, 0, 0, 1);
+    
+    cursor: pointer;
+    transition: .6s;
+}
+.iconBlack:hover{
+    transform: scale(1.2);
+}
+.iconWhite{
+    /* color: white; */
+    text-shadow: 10px -10px 22px yellow;
+    cursor: pointer;
+    transition: .6s;
+}
+.iconWhite:hover{
+    transform: scale(1.2);
+}
+.dark{
+    background-color: black;
+    color: white;
+}
